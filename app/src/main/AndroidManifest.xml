@@ -11,10 +11,14 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.FBkelasA">
-        <activity android:name=".LihatTeman"
-            android:parentActivityName=".MainActivity"></activity>
-        <activity android:name=".TambahTeman"
-            android:parentActivityName=".MainActivity"/>
+        <activity android:name=".TemanEdit"
+            android:parentActivityName=".LihatTeman"></activity>
+        <activity
+            android:name=".LihatTeman"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".TambahTeman"
+            android:parentActivityName=".MainActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
